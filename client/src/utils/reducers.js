@@ -11,13 +11,12 @@ import {
 } from './actions';
 
 const initialState = {
-  products: [],
-  cart: [],
-  cartOpen: false,
-  categories: [],
-  currentCategory: '',
+    products: [],
+    cart: [],
+    cartOpen: false,
+    categories: [],
+    currentCategory: '',
 };
-
 // The reducer is a function that accepts the current state and an action. It returns a new state based on that action.
 const reducers = (state = initialState, action) => {
   switch (action.type) {
